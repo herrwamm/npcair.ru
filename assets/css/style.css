@@ -3,6 +3,13 @@ body {
     display: block;
 }
 
+.main {
+  margin-bottom: 20px;
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 30px;
+}
+
 /* footer section */
 #footer {
 	width: 100%;
