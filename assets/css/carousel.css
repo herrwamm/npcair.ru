@@ -24,13 +24,24 @@
 
 	.carousel-control {
 	  position: absolute;
-	  margin-top: 0px;
-	  font-size: 120px;
+	  top: 50%;
+	  left: 15px;
+	  width: 40px;
+	  height: 40px;
+	  margin-top: -20px;
+	  font-size: 60px;
 	  font-weight: 100;
+	  line-height: 30px;
 	  color: #40b5f5;
 	  text-align: center;
-	  background: transparent;
-}	
+	  background: #222222;
+	  border: 3px solid #ffffff;
+	  -webkit-border-radius: 5px;
+	  -moz-border-radius: 5px;
+      border-radius: 5px;
+	  opacity: 0.5;
+	  filter: alpha(opacity=50);
+	}
 
     .carousel .item {
       height: 500px;
