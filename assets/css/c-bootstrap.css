@@ -206,7 +206,7 @@ textarea {
 }
 body {
 	position: relative;
-	background: #DDDCE2 url(assets/images/content_bg.jpg) repeat left top;
+	background: #DDDCE2 url(../assets/images/content_bg.jpg) repeat left top;
 	-webkit-font-smoothing: antialiased;
   	margin: 0;
   	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
