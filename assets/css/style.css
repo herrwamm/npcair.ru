@@ -8,6 +8,7 @@ body {
   font-size: 14px;
   font-weight: 100;
   line-height: 30px;
+  background: url(assets/images/content-bg.jpg);
 }
 
 /* footer section */
