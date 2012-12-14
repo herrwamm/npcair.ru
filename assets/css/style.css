@@ -17,6 +17,13 @@ body {
   *zoom: 1;
 }
 
+.main h1 {
+	margin: 0;
+      line-height: 1.25;
+      color: #40b5f5;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+}
+
 #copyright {
 	border-top: 1px solid #D6D6D6;
 	background: #1990d5 url(/npcair.ru.git/assets/images/pattern.png);
