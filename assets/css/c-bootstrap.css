@@ -205,15 +205,15 @@ textarea {
   box-sizing: border-box;
 }
 body {
-  position: relative;
-background: #DDDCE2 url(assets/images/content_bg.jpg) repeat left top;
--webkit-font-smoothing: antialiased;
-  margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 20px;
-  color: #555555;
-  background-color: #ffffff;
+	position: relative;
+	background: #DDDCE2 url(assets/images/content_bg.jpg) repeat left top;
+	-webkit-font-smoothing: antialiased;
+  	margin: 0;
+  	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  	font-size: 14px;
+  	line-height: 20px;
+  	color: #555555;
+  	background-color: #ffffff;
 }
 a {
   color: #2fa4e7;
