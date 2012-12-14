@@ -9,7 +9,12 @@
 
     /* Carousel base class */
     .carousel {
-      margin-bottom: 60px;
+	background: #ffffff; 
+	height: auto;
+	padding-bottom: 50px;
+	border-bottom: 1px solid #d1d2d4;
+	box-shadow: 0px 2px 0px 0px #e7e7e7;
+    margin-bottom: 60px; 
     }
 
     .carousel .container {
@@ -19,23 +24,12 @@
 
 	.carousel-control {
 	  position: absolute;
-	  top: 40%;
-	  left: 30px;
-	  width: 80px;
-	  height: 80px;
-	  margin-top: -70px;
+	  margin-top: 0px;
 	  font-size: 120px;
 	  font-weight: 100;
-	  line-height: 60px;
 	  color: #40b5f5;
 	  text-align: center;
-	  background: #222222;
-	  border: 3px solid #ffffff;
-	  -webkit-border-radius: 70px;
-	  -moz-border-radius: 70px;
-	  border-radius: 70px;
- 	  opacity: 0.5;
-  	  filter: alpha(opacity=50);
+	  background: transparent;
 }	
 
     .carousel .item {
