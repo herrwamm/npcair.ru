@@ -17,7 +17,8 @@ body {
   *zoom: 1;
 }
 
-.main-header h1 {
+.main-header h1,
+.main-header .lead {
 	margin: 0;
       line-height: 1.25;
       color: #40b5f5;
