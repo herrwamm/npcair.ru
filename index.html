@@ -11,9 +11,17 @@
 		<link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
 		<link href="assets/css/style.css" rel="stylesheet">
 		<link href="assets/css/carousel.css" rel="stylesheet">
+		<script>window.jQuery || document.write('<script src="js/jquery-1.8.2.min.js"><\/script>')</script>
 		<style type="text/css"></style>
 	</head>
 <body>
+	<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 	<!-- NAVBAR
     ================================================== -->
 <div class="navbar">
@@ -129,7 +137,7 @@
 		<div class="container">
 			<div class="row">
 				<p class="span6">&copy; 2012 Группа компаний "АИР"</p>
-				<p class="span6"><a style='color: white' class="pull-right" href="#">Наверх</a></p>
+				<p class="span6"><a class="pull-right" href="#">Наверх</a></p>
 			</div> <!-- /row -->
 		</div> <!-- /container -->
 	</div>
@@ -143,6 +151,8 @@
     <script src="assets/js/bootstrap-dropdown.js"></script>
     <script src="assets/js/bootstrap-scrollspy.js"></script>
     <script src="assets/js/bootstrap-tab.js"></script>
+    <script src="assets/js/functions.js"></script>
+    <script src="assets/js/jquery.scrollTo.js"></script>    
     <script src="assets/js/bootstrap-tooltip.js"></script>
     <script src="assets/js/bootstrap-popover.js"></script>
     <script src="assets/js/bootstrap-button.js"></script>
